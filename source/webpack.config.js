@@ -34,7 +34,7 @@ module.exports = {
 
 	output: {
 		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname, '../docs')
 	},
 
 	plugins: [
@@ -44,13 +44,15 @@ module.exports = {
 			filename: 'index.html',
 			chunks: ['index'],
 		}),
-		new MiniCssExtractPlugin()
+		new MiniCssExtractPlugin({
+			filename: '[name].bundle.css',
+		})
 	],
 
 	module: {
 		rules: [
 			{
-				test: /.(ts|tsx)?$/,
+				test: /\.(tsx?)?$/,
 				loader: 'ts-loader',
 				include: [path.resolve(__dirname, 'src')],
 				exclude: [/node_modules/]
