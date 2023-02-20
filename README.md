@@ -10,4 +10,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Support or Contact
 
-@github/mushroom-cn 或者 提交[issue](https://github.com/mushroom-cn/mushroom-cn.github.io/issues) 
+@mushroom-cn 或者 提交[issue](https://github.com/mushroom-cn/mushroom-cn.github.io/issues) 
