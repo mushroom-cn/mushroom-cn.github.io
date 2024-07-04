@@ -28,8 +28,7 @@ domain: mushroom-cn.github.io
 url: https://mushroom-cn.github.io
 show_downloads: false
 remote_theme: pages-themes/cayman@v0.2.0
-site:
-  lang: zh-CN
+lang: zh-CN
 # Build settings
 plugins:
   - jekyll-github-metadata
