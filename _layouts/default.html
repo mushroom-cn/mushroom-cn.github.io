@@ -14,7 +14,7 @@
     {% include var.html %}
   </head>
   <body>
-    {{% include clarity.html %}}
+    {% include clarity.html %}
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description  }}</h2>
