@@ -12,21 +12,23 @@
 ## 规划时间线
 
 ```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
-timeline
+gantt
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+    title       学习规划进度图
+    dateFormat  YYYY-MM-DD
+    axisFormat  %Y-%m
 
-    title 2023至2024家庭学习规划时间线
+    section 0
+        阅读活动1               :active,  2023-12-03, 2024-02-05
+    section 2
+        阅读活动2               :active,  2024-03-06, 2024-07-31
+    section 3
+        书法活动1               :active,  2024-03-06, 2024-07-31
+    section 4
+        阅读活动3               :active,  2024-08-01, 2024-09-01
+    section 5
+        书法活动2               :active,  2024-08-01, 2024-09-01
 
-    2023年12月-2024年2月
-                    : 阅读活动1期
-
-    2024年3月-7月
-                 : 阅读活动2期
-                 : 书法活动1期
-
-    2024年8月-9月
-                 :  阅读活动3期
-                 :  书法活动2期
 ```
 
 ## 阅读活动 1 期
