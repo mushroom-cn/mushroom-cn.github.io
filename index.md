@@ -18,7 +18,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %Y-%m
 
-    section 0
+    section 1
         阅读活动1               :active,  2023-12-03, 2024-02-05
     section 2
         阅读活动2               :active,  2024-03-06, 2024-07-31
