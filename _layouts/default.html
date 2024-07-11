@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     {% include var.html %}
-    {% include head.html %}
   </head>
   <body>
     {% include clarity.html %}
@@ -34,6 +33,7 @@
         {% endif %}
       </footer>
     </main>
-  
+    <div id="app"></div>
+    {% include app.html %}
   </body>
 </html>
