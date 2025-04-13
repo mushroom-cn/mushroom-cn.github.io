@@ -1,7 +1,7 @@
 ---
 title: "2025/02/15-2025/12/31 学习兴趣培养规划"
 ---
-* 自动生成目录
+* auot generate categories
 {:toc}
 
 ## 背景
